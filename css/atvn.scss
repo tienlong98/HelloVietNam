@@ -1,0 +1,316 @@
+img {
+    border-radius: 10px;
+}
+
+.home {
+    .carousel-item {
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+        .container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        h2 {
+            font-size: 80px;
+            color: #ffffff;
+            margin: 0 0 10px;
+            opacity: 0;
+        }
+        p {
+            font-size: 30px;
+            margin: 0;
+            color: #eeeeee;
+            opacity: 0;
+        }
+        &.active {
+            h2 {
+                animation: fadeInLeft 0.5s ease forwards;
+            }
+            p {
+                animation: fadeInRight 0.5s ease forwards;
+            }
+        }
+    }
+    .carousel-controls {
+        position: absolute;
+        left: 50%;
+        bottom: 40px;
+        z-index: 10;
+        transform: translateX(-50%);
+    }
+    .carousel-indicators {
+        position: relative;
+        margin: 0;
+        li {
+            height: 70px;
+            width: 70px;
+            margin: 0 5px;
+            border-radius: 50%;
+            background-position: center;
+            background-size: cover;
+            border: 3px solid transparent;
+            transition: all 0.3s ease;
+            &.active {
+                border-color: #ffffff;
+                transform: scale(1.2);
+            }
+        }
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        height: 60px;
+        width: 60px;
+        opacity: 1;
+        z-index: 3;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+    .carousel-control-next:hover,
+    .carousel-control-prev:hover {
+        box-shadow: 0 0 10px #ffffff;
+    }
+    .carousel-control-next img,
+    .carousel-control-prev img {
+        width: 30px;
+    }
+    .carousel-control-next {
+        right: -90px;
+    }
+    .carousel-control-prev {
+        left: -90px;
+    }
+}
+
+.atmb-left {
+    margin-top: 50px !important;
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+}
+
+.atmb-right {
+    margin-top: 50px !important;
+    img {
+        padding: 10px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.banner-atmb {
+    background: url(../imgs/atvn9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+        width: 60%;
+        background-image: url(../imgs/bg1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px 50px;
+    }
+}
+
+.atmt-left {
+    margin-top: 100px !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin-bottom: 10px;
+        object-fit: cover;
+        object-position: center;
+        height: 160px;
+    }
+}
+
+.atmt-right {
+    margin-top: 50px !important;
+    h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.banner-atmt {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    position: relative;
+    margin-top: 50px !important;
+    .nuatrai {
+        width: 50%;
+        height: 100%;
+    }
+    .nuaphai {
+        width: 50%;
+        height: 100%;
+        background-color: #C0C0C0;
+    }
+    .content-atmt {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border-left: 5px solid #ff8c00;
+        padding-left: 50px;
+        h2 {
+            font-weight: bold;
+        }
+    }
+}
+
+.atmn-left {
+    margin-top: 50px !important;
+    h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.atmn-right {
+    margin-top: 50px !important;
+    text-align: center;
+    align-items: center;
+    img {
+        margin-bottom: 15px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px;
+    }
+}
+
+.thuvien-amthuc {
+    margin-top: 100px;
+    h3 {
+        font-weight: 900;
+        position: relative;
+        padding-left: 10px;
+        border-left: 3px solid #ff8c00;
+    }
+}
+
+.thuvienanh {
+    position: relative;
+    column-count: 4;
+    padding: 20px;
+    .image {
+        display: inline-block;
+        margin-bottom: 10px;
+        .myimg {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            cursor: zoom-in;
+        }
+        p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.copyright {
+    background-image: none;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        .carousel-control-next,
+        .carousel-control-prev {
+            display: none;
+        }
+        .carousel-indicators li {
+            height: 60px;
+            width: 60px;
+        }
+        .carousel-item {
+            h2 {
+                font-size: 45px;
+            }
+            p {
+                font-size: 22px;
+            }
+        }
+    }
+    .thuvienanh {
+        column-count: 2;
+    }
+    .banner-atmb {
+        .content {
+            width: 85% !important;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .thuvienanh {
+        column-count: 3;
+    }
+    .banner-atmb {
+        .content {
+            width: 70%;
+            padding: 15px 30px;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .thuvienanh {
+        column-count: 1;
+    }
+    .banner-atmb {
+        .content {
+            font-size: 0.9em;
+            padding: 5px 10px;
+            width: 95% !important;
+        }
+    }
+}

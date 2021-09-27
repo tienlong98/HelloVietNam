@@ -1,0 +1,431 @@
+img {
+  border-radius: 10px;
+}
+
+.tqdulichvn {
+  background: url(../imgs/bgdulich.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: 51.6% 100%;
+}
+
+.tqdulichvn .dulichvn-left {
+  margin-top: 200px;
+  margin-bottom: 150px;
+  text-align: right;
+  position: relative;
+}
+
+.tqdulichvn .dulichvn-left .fix-vitri1 {
+  position: absolute;
+  left: 100px;
+  bottom: -100px;
+  height: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.tqdulichvn .dulichvn-left img {
+  border: 5px solid #fff;
+  border-radius: 0px;
+}
+
+.tqdulichvn .dulichvn-right {
+  margin-top: 250px;
+}
+
+.tqdulichvn .dulichvn-right h1 {
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.tqdulichvn .dulichvn-right p {
+  font-size: 1.2em;
+  margin-top: 25px;
+}
+
+.chitiet {
+  background-color: #e3bca9;
+  text-align: center;
+}
+
+.chitiet .content-dlvn {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 60%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.chitiet .content-dlvn h2 {
+  font-weight: bold;
+}
+
+.chitiet .content-dlvn p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.dulichmb {
+  background: url(../imgs/bgdulich1.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: 50.8% 0%;
+}
+
+.dulichmb .dulichmb-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dulichmb .dulichmb-left .content-dlmb {
+  text-align: right;
+}
+
+.dulichmb .dulichmb-left .content-dlmb h1 {
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.dulichmb .dulichmb-left .content-dlmb p {
+  font-size: 1.2em;
+  margin-top: 25px;
+}
+
+.dulichmb .dulichmb-right {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.dulichmb .dulichmb-right .fix-vitri2 {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.dulichmb .dulichmb-right img {
+  border: 5px solid #fff;
+  border-radius: 0px;
+}
+
+.chitiet-dlmb {
+  background: url(../imgs/dlhoian10.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chitiet-dlmb .content-anhmb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.chitiet-dlmb .content-anhmb .fix-dk {
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.chitiet-dlmb .content-anhmb .items {
+  width: 25%;
+}
+
+.chitiet-dlmb .content-anhmb .items img {
+  border: 5px solid #fff;
+  border-radius: 0px;
+}
+
+.chitiet-dlmb .content-anhmb .items p {
+  text-align: center;
+  background-color: #fff;
+  font-size: 1.3em;
+  width: 90%;
+}
+
+.chitiet-dlmb .content-anhmb .chua-thienmu {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.dulichmt {
+  background: url(../imgs/bgdulich2.jpg) no-repeat;
+  background-size: cover;
+  background-position: 47.6% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.dulichmt .dulichmt-left .anh-dlmt {
+  margin-top: 250px;
+  margin-bottom: 250px;
+  position: relative;
+}
+
+.dulichmt .dulichmt-left .anh-dlmt img {
+  border: 5px solid #fff;
+  border-radius: 0px;
+}
+
+.dulichmt .dulichmt-left .anh-dlmt .fix-vitri3 {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+}
+
+.dulichmt .dulichmt-right {
+  margin-top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.dulichmt .dulichmt-right .content-dlmt h1 {
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.dulichmt .dulichmt-right .content-dlmt p {
+  font-size: 1.2em;
+  margin-top: 25px;
+}
+
+.anh-mientrung {
+  background: url(../imgs/bgdulich3.jpg) no-repeat;
+  background-size: cover;
+  background-position: 47.6% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.anh-mientrung .content-anhmt {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.anh-mientrung .content-anhmt .items {
+  width: 25%;
+}
+
+.anh-mientrung .content-anhmt .items img {
+  border: 5px solid #fff;
+  border-radius: 0px;
+  width: 90%;
+}
+
+.anh-mientrung .content-anhmt .items p {
+  background-color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+  width: 90%;
+}
+
+.anh-mientrung .content-anhmt .nghiengtrai {
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.anh-mientrung .content-anhmt .nghiengphai {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.dulichmn {
+  background: #dfdde2;
+}
+
+.dulichmn .dulichmn-left .content-dlmn {
+  text-align: right;
+}
+
+.dulichmn .dulichmn-left .content-dlmn h1 {
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.dulichmn .dulichmn-left .content-dlmn p {
+  font-size: 1.2em;
+  margin-top: 25px;
+}
+
+.dulichmn .dulichmn-right {
+  position: relative;
+}
+
+.dulichmn .dulichmn-right img {
+  border: 5px solid #fff;
+  border-radius: 0px;
+}
+
+.dulichmn .dulichmn-right .fix-vtmn1 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.dulichmn .dulichmn-right .fix-vtmn2 {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.dulichmn .dulichmn-right .fix-vtmn3 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.dulichmn .thuvien {
+  margin-top: 150px;
+}
+
+.dulichmn .thuvien h4 {
+  font-weight: 900;
+  position: relative;
+  padding-left: 10px;
+  border-left: 3px solid #B1907F;
+  font-size: 2em;
+}
+
+.dulichmn .thuvienanh {
+  position: relative;
+  -webkit-column-count: 4;
+          column-count: 4;
+  padding: 20px;
+}
+
+.dulichmn .thuvienanh .image {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.dulichmn .thuvienanh .image .myimg {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.dulichmn .thuvienanh .image p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.dulichmn .copyright {
+  background-image: none;
+}
+
+@media screen and (max-width: 992px) {
+  .tqdulichvn .dulichvn-right h1 {
+    font-size: 2em;
+  }
+  .tqdulichvn .dulichvn-right p {
+    font-size: 1em;
+  }
+  .tqdulichvn .dulichvn-left .fix-vitri1 {
+    left: 50px;
+    bottom: -50px;
+    height: 60%;
+  }
+  .dulichmb .dulichmb-left .content-dlmb h1 {
+    font-size: 2em;
+  }
+  .dulichmb .dulichmb-left .content-dlmb p {
+    font-size: 1em;
+  }
+  .dulichmt .dulichmt-right .content-dlmt h1 {
+    font-size: 2em;
+  }
+  .dulichmt .dulichmt-right .content-dlmt p {
+    font-size: 1em;
+  }
+  .dulichmn .thuvienanh {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+  .dulichmn .dulichmn-left .content-dlmn h1 {
+    font-size: 2em;
+  }
+  .dulichmn .dulichmn-left .content-dlmn p {
+    font-size: 1em;
+  }
+  .dulichmn .dulichmn-right .fix-vtmn2 {
+    bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tqdulichvn .dulichvn-right {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .dulichmb .dulichmb-left {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .dulichmb .dulichmb-left .content-dlmb {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .dulichmt .dulichmt-right {
+    margin-top: 10px;
+  }
+  .dulichmn .thuvien {
+    margin-top: 350px;
+  }
+  .dulichmn .thuvienanh {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+  .dulichmn .dulichmn-right {
+    margin-top: 350px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .dulichmn .thuvienanh {
+    -webkit-column-count: 1;
+            column-count: 1;
+    text-align: center;
+  }
+  .chitiet-dlmb .content-anhmb .items p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .dulichmn .dulichmn-right .fix-vtmn2 {
+    bottom: -20px;
+  }
+}
+/*# sourceMappingURL=dulichvn.css.map */

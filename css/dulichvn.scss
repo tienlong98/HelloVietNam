@@ -1,0 +1,371 @@
+@mixin vienanh {
+    border: 5px solid #fff;
+    border-radius: 0px;
+}
+
+@mixin tieude-cacmien {
+    h1 {
+        font-weight: bold;
+        font-size: 2.3em;
+    }
+    p {
+        font-size: 1.2em;
+        margin-top: 25px;
+    }
+}
+
+@mixin mantable-tieude {
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+
+img {
+    border-radius: 10px;
+}
+
+.tqdulichvn {
+    background: url(../imgs/bgdulich.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: 51.6% 100%;
+    .dulichvn-left {
+        margin-top: 200px;
+        margin-bottom: 150px;
+        text-align: right;
+        position: relative;
+        .fix-vitri1 {
+            position: absolute;
+            left: 100px;
+            bottom: -100px;
+            height: 70%;
+            object-fit: cover;
+            object-position: center;
+        }
+        img {
+            @include vienanh();
+        }
+    }
+    .dulichvn-right {
+        margin-top: 250px;
+        @include tieude-cacmien();
+    }
+}
+
+.chitiet {
+    background-color: #e3bca9;
+    text-align: center;
+    .content-dlvn {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        h2 {
+            font-weight: bold;
+        }
+        p {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+    }
+}
+
+.dulichmb {
+    background: url(../imgs/bgdulich1.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: 50.8% 0%;
+    .dulichmb-left {
+        display: flex;
+        align-items: center;
+        .content-dlmb {
+            text-align: right;
+            @include tieude-cacmien();
+        }
+    }
+    .dulichmb-right {
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        .fix-vitri2 {
+            position: absolute;
+            right: 20px;
+            top: 50px;
+            transform: rotate( 10deg);
+        }
+        img {
+            @include vienanh();
+        }
+    }
+}
+
+.chitiet-dlmb {
+    background: url(../imgs/dlhoian10.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    .content-anhmb {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .fix-dk {
+            transform: rotate( -15deg);
+        }
+        .items {
+            width: 25%;
+            img {
+                @include vienanh();
+            }
+            p {
+                text-align: center;
+                background-color: #fff;
+                font-size: 1.3em;
+                width: 90%;
+            }
+        }
+        .chua-thienmu {
+            transform: rotate(15deg);
+        }
+    }
+}
+
+.dulichmt {
+    background: url(../imgs/bgdulich2.jpg) no-repeat;
+    background-size: cover;
+    background-position: 47.6% 100%;
+    width: 100%;
+    height: 100%;
+    .dulichmt-left {
+        .anh-dlmt {
+            margin-top: 250px;
+            margin-bottom: 250px;
+            position: relative;
+            img {
+                @include vienanh();
+            }
+            .fix-vitri3 {
+                position: absolute;
+                right: 0;
+                bottom: -50px;
+            }
+        }
+    }
+    .dulichmt-right {
+        margin-top: 50%;
+        transform: translateY(-50%);
+        .content-dlmt {
+            @include tieude-cacmien();
+        }
+    }
+}
+
+.anh-mientrung {
+    background: url(../imgs/bgdulich3.jpg) no-repeat;
+    background-size: cover;
+    background-position: 47.6% 100%;
+    width: 100%;
+    height: 100%;
+    .content-anhmt {
+        padding-top: 100px;
+        padding-bottom: 200px;
+        .items {
+            width: 25%;
+            img {
+                @include vienanh();
+                width: 90%;
+            }
+            p {
+                background-color: #fff;
+                font-size: 1.3em;
+                text-align: center;
+                width: 90%;
+            }
+        }
+        .nghiengtrai {
+            transform: rotate(-15deg);
+        }
+        .nghiengphai {
+            transform: rotate(15deg);
+        }
+    }
+}
+
+.dulichmn {
+    background: #dfdde2;
+    .dulichmn-left {
+        .content-dlmn {
+            text-align: right;
+            @include tieude-cacmien();
+        }
+    }
+    .dulichmn-right {
+        position: relative;
+        img {
+            @include vienanh();
+        }
+        .fix-vtmn1 {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .fix-vtmn2 {
+            position: absolute;
+            bottom: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .fix-vtmn3 {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+        }
+    }
+    .thuvien {
+        margin-top: 150px;
+        h4 {
+            font-weight: 900;
+            position: relative;
+            padding-left: 10px;
+            border-left: 3px solid #B1907F;
+            font-size: 2em;
+        }
+    }
+    .thuvienanh {
+        position: relative;
+        column-count: 4;
+        padding: 20px;
+        .image {
+            display: inline-block;
+            margin-bottom: 10px;
+            .myimg {
+                object-fit: cover;
+                object-position: center;
+                width: 100%;
+                cursor: zoom-in;
+            }
+            p {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .copyright {
+        background-image: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .tqdulichvn {
+        .dulichvn-right {
+            @include mantable-tieude();
+        }
+        .dulichvn-left {
+            .fix-vitri1 {
+                left: 50px;
+                bottom: -50px;
+                height: 60%;
+            }
+        }
+    }
+    .dulichmb {
+        .dulichmb-left {
+            .content-dlmb {
+                @include mantable-tieude();
+            }
+        }
+    }
+    .dulichmt {
+        .dulichmt-right {
+            .content-dlmt {
+                @include mantable-tieude();
+            }
+        }
+    }
+    .dulichmn {
+        .thuvienanh {
+            column-count: 3;
+        }
+        .dulichmn-left {
+            .content-dlmn {
+                @include mantable-tieude();
+            }
+        }
+        .dulichmn-right {
+            .fix-vtmn2 {
+                bottom: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .tqdulichvn {
+        .dulichvn-right {
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+    .dulichmb {
+        .dulichmb-left {
+            order: 1;
+            .content-dlmb {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    .dulichmt {
+        .dulichmt-right {
+            margin-top: 10px;
+        }
+    }
+    .dulichmn {
+        .thuvien {
+            margin-top: 350px;
+        }
+        .thuvienanh {
+            column-count: 2;
+        }
+        .dulichmn-right {
+            margin-top: 350px;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .dulichmn {
+        .thuvienanh {
+            column-count: 1;
+            text-align: center;
+        }
+    }
+    .chitiet-dlmb {
+        .content-anhmb {
+            .items {
+                p {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width:992px) and ( max-width:1200px) {
+    .dulichmn {
+        .dulichmn-right {
+            .fix-vtmn2 {
+                bottom: -20px;
+            }
+        }
+    }
+}
