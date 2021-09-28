@@ -476,6 +476,7 @@ nav .menu_area .nav ul li a:hover::before {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   z-index: 1;
+  color: black;
 }
 
 #mientrung .owl-carousel .item .content h4 {
