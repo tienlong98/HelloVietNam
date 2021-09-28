@@ -247,6 +247,10 @@ img {
         .image {
             display: inline-block;
             margin-bottom: 10px;
+            a {
+                text-decoration: none;
+                color: black;
+            }
             .myimg {
                 object-fit: cover;
                 object-position: center;
