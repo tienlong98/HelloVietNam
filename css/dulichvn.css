@@ -153,12 +153,17 @@ img {
   width: 25%;
 }
 
-.chitiet-dlmb .content-anhmb .items img {
+.chitiet-dlmb .content-anhmb .items a {
+  text-decoration: none;
+  color: black;
+}
+
+.chitiet-dlmb .content-anhmb .items a img {
   border: 5px solid #fff;
   border-radius: 0px;
 }
 
-.chitiet-dlmb .content-anhmb .items p {
+.chitiet-dlmb .content-anhmb .items a p {
   text-align: center;
   background-color: #fff;
   font-size: 1.3em;

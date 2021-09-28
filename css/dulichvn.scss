@@ -121,14 +121,18 @@ img {
         }
         .items {
             width: 25%;
-            img {
-                @include vienanh();
-            }
-            p {
-                text-align: center;
-                background-color: #fff;
-                font-size: 1.3em;
-                width: 90%;
+            a {
+                text-decoration: none;
+                color: black;
+                img {
+                    @include vienanh();
+                }
+                p {
+                    text-align: center;
+                    background-color: #fff;
+                    font-size: 1.3em;
+                    width: 90%;
+                }
             }
         }
         .chua-thienmu {
