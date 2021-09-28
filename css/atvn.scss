@@ -104,10 +104,13 @@ img {
 
 .atmb-left {
     margin-top: 50px !important;
-    h2 {
+    h1 {
         text-align: center;
         margin-bottom: 30px;
         font-weight: bold;
+    }
+    p {
+        font-size: 25px;
     }
 }
 
@@ -136,6 +139,9 @@ img {
         background-repeat: no-repeat;
         background-size: cover;
         padding: 20px 50px;
+        p {
+            font-size: 23px;
+        }
     }
 }
 
@@ -155,9 +161,12 @@ img {
 
 .atmt-right {
     margin-top: 50px !important;
-    h2 {
+    h1 {
         text-align: center;
         font-weight: bold;
+    }
+    p {
+        font-size: 25px;
     }
 }
 
@@ -190,9 +199,12 @@ img {
 
 .atmn-left {
     margin-top: 50px !important;
-    h2 {
+    h1 {
         text-align: center;
         font-weight: bold;
+    }
+    p {
+        font-size: 24px;
     }
 }
 
