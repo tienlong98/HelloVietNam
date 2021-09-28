@@ -30,18 +30,22 @@ img {
   text-align: center;
 }
 
-.home .carousel-item h2 {
+.home .carousel-item .container h2 {
   font-size: 80px;
   color: #ffffff;
   margin: 0 0 10px;
   opacity: 0;
 }
 
-.home .carousel-item p {
+.home .carousel-item .container p {
   font-size: 30px;
   margin: 0;
   color: #eeeeee;
   opacity: 0;
+}
+
+.home .carousel-item .container .fix-naiyo-banner {
+  text-align: left;
 }
 
 .home .carousel-item.active h2 {

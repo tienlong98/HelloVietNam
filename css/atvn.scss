@@ -25,18 +25,21 @@ img {
             top: 50%;
             transform: translate(-50%, -50%);
             text-align: center;
-        }
-        h2 {
-            font-size: 80px;
-            color: #ffffff;
-            margin: 0 0 10px;
-            opacity: 0;
-        }
-        p {
-            font-size: 30px;
-            margin: 0;
-            color: #eeeeee;
-            opacity: 0;
+            h2 {
+                font-size: 80px;
+                color: #ffffff;
+                margin: 0 0 10px;
+                opacity: 0;
+            }
+            p {
+                font-size: 30px;
+                margin: 0;
+                color: #eeeeee;
+                opacity: 0;
+            }
+            .fix-naiyo-banner {
+                text-align: left;
+            }
         }
         &.active {
             h2 {
