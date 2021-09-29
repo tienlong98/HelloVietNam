@@ -414,6 +414,12 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  .home .carousel-item .container p {
+    font-size: 18px;
+  }
+  .home .carousel-item .container h2 {
+    font-size: 40px;
+  }
   .thuvienanh {
     -webkit-column-count: 1;
             column-count: 1;
