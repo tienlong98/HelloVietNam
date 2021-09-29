@@ -678,6 +678,10 @@ nav .menu_area .nav ul li a:hover::before {
   font-family: 'LifeLogo';
 }
 
+.copyright .nguon {
+  text-align: center;
+}
+
 .copyright .cpr-left {
   display: -webkit-box;
   display: -ms-flexbox;
