@@ -233,13 +233,18 @@ img {
   width: 25%;
 }
 
-.anh-mientrung .content-anhmt .items img {
+.anh-mientrung .content-anhmt .items a {
+  text-decoration: none;
+  color: black;
+}
+
+.anh-mientrung .content-anhmt .items a img {
   border: 5px solid #fff;
   border-radius: 0px;
   width: 90%;
 }
 
-.anh-mientrung .content-anhmt .items p {
+.anh-mientrung .content-anhmt .items a p {
   background-color: #fff;
   font-size: 1.3em;
   text-align: center;

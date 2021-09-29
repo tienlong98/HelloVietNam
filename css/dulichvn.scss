@@ -182,15 +182,19 @@ img {
         padding-bottom: 200px;
         .items {
             width: 25%;
-            img {
-                @include vienanh();
-                width: 90%;
-            }
-            p {
-                background-color: #fff;
-                font-size: 1.3em;
-                text-align: center;
-                width: 90%;
+            a {
+                text-decoration: none;
+                color: black;
+                img {
+                    @include vienanh();
+                    width: 90%;
+                }
+                p {
+                    background-color: #fff;
+                    font-size: 1.3em;
+                    text-align: center;
+                    width: 90%;
+                }
             }
         }
         .nghiengtrai {
